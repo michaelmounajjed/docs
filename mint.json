@@ -7,18 +7,18 @@
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#165ecc",
+    "light": "#0094FF",
+    "dark": "#165ecc",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#165ecc",
+      "to": "#0094FF"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:michael@durate.com"
     }
   ],
   "topbarCtaButton": {
@@ -45,7 +45,7 @@
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://durate.com/blog"
     }
   ],
   "navigation": [
@@ -58,14 +58,36 @@
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Desktop",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "desktop/markdown",
+        "desktop/code",
+        "desktop/images",
+        "desktop/settings",
+        "desktop/navigation",
+        "desktop/reusable-snippets"
+      ]
+    },
+    {
+      "group": "Mobile",
+      "pages": [
+        "mobile/markdown",
+        "mobile/code",
+        "mobile/images",
+        "mobile/settings",
+        "mobile/navigation",
+        "mobile/reusable-snippets"
+      ]
+    },
+    {
+      "group": "Resources",
+      "pages": [
+        "resources/markdown",
+        "resources/code",
+        "resources/images",
+        "resources/settings",
+        "resources/navigation",
+        "resources/reusable-snippets"
       ]
     },
     {
@@ -86,6 +108,6 @@
   "footerSocials": {
     "x": "https://x.com/mintlify",
     "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "linkedin": "https://linkedin.com/company/durate"
   }
 }
