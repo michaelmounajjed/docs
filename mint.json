@@ -54,37 +54,19 @@
       "pages": [
         "desktop/view-schedule",
         "desktop/requests",
-        "desktop/swaps",
-        "desktop/integrations"
+        "desktop/swaps"
       ]
     },
     {
       "group": "Mobile",
       "pages": [
-        "mobile/code",
-        "mobile/images",
-        "mobile/settings",
-        "mobile/reusable-snippets"
+        "mobile/coming-soon"
       ]
     },
     {
       "group": "Resources",
       "pages": [
-        "resources/code"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "resources/support"
       ]
     }
   ],
