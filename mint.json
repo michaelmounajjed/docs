@@ -5,7 +5,7 @@
     "dark": "https://docflow-images.s3.us-east-2.amazonaws.com/duratewhite.png",
     "light": "https://docflow-images.s3.us-east-2.amazonaws.com/duratereal.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "./Docflow+Web+Image.png",
   "colors": {
     "primary": "#165ecc",
     "light": "#0094FF",
@@ -23,7 +23,7 @@
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://www.durate.com"
   },
   "anchors": [
     {
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "group": "Desktop",
+      "group": "Computer",
       "pages": [
         "desktop/view-schedule",
         "desktop/requests",
@@ -71,8 +71,6 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
     "linkedin": "https://linkedin.com/company/durate"
   }
 }
