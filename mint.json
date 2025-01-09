@@ -1,9 +1,9 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Durate",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "https://docflow-images.s3.us-east-2.amazonaws.com/duratewhite.png",
+    "light": "https://docflow-images.s3.us-east-2.amazonaws.com/duratereal.png"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -25,69 +25,52 @@
     "name": "Dashboard",
     "url": "https://dashboard.mintlify.com"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Dashboard",
+      "icon": "objects-column",
+      "url": "https://durate.com"
     },
     {
-      "name": "Support",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
+      "name": "Updates",
       "icon": "newspaper",
       "url": "https://durate.com/blog"
+    },
+    {
+      "name": "Contact Us",
+      "icon": "paper-plane",
+      "url": "mailto:michael@durate.com"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "introduction"
       ]
     },
     {
       "group": "Desktop",
       "pages": [
-        "desktop/markdown",
-        "desktop/code",
-        "desktop/images",
-        "desktop/settings",
-        "desktop/navigation",
-        "desktop/reusable-snippets"
+        "desktop/view-schedule",
+        "desktop/requests",
+        "desktop/swaps",
+        "desktop/integrations"
       ]
     },
     {
       "group": "Mobile",
       "pages": [
-        "mobile/markdown",
         "mobile/code",
         "mobile/images",
         "mobile/settings",
-        "mobile/navigation",
         "mobile/reusable-snippets"
       ]
     },
     {
       "group": "Resources",
       "pages": [
-        "resources/markdown",
-        "resources/code",
-        "resources/images",
-        "resources/settings",
-        "resources/navigation",
-        "resources/reusable-snippets"
+        "resources/code"
       ]
     },
     {
